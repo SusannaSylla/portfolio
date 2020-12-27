@@ -1,29 +1,29 @@
 <template>
   <div class="header">
 
-    <!--    <TopName></TopName>-->
-
-    <!--    <div class="nav">-->
-    <!--      <img alt="navigation menu button" src="../assets/burger.svg">-->
-    <!--    </div>-->
-
     <HeaderImage></HeaderImage>
-    <!--    <HeaderContent></HeaderContent>-->
+
+    <div class="nav">
+      <img alt="navigation menu button" src="../assets/burger.svg">
+    </div>
+
+    <TopName></TopName>
+    <HeaderContent></HeaderContent>
 
   </div>
 </template>
 
 <script>
-// import TopName from '@/components/TopName.vue'
+import TopName from '@/components/TopName.vue'
 import HeaderImage from '@/components/HeaderImage.vue'
-// import HeaderContent from '@/components/HeaderContent.vue'
+import HeaderContent from '@/components/HeaderContent.vue'
 
 export default {
   name: 'Header',
   components: {
-    // TopName,
+    TopName,
     HeaderImage,
-    // HeaderContent,
+    HeaderContent,
   },
   props: {
     msg: String
@@ -31,7 +31,7 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped lang="scss">
 .header {
   overflow: hidden;

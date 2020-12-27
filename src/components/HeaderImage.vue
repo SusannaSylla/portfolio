@@ -23,7 +23,7 @@ export default {
   top: 35%;
   left: 64%;
   transform: translate(-50%, -50%);
-  z-index: 50;
+  z-index: 10;
 }
 
 .circles {
@@ -32,7 +32,6 @@ export default {
   top: 35%;
   left: 64%;
   transform: translate(-50%, -50%);
-  z-index: 40;
   height: 225vw;
   min-height: 750px;
 }
