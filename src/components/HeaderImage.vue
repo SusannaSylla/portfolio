@@ -12,5 +12,28 @@ export default {
 </script>
 
 <style scoped>
+.header-images {
+  position: relative;
+  height: 100vh;
+}
 
+.face {
+  display: block;
+  position: relative;
+  top: 35%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+}
+
+.circles {
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  z-index: 40;
+  height: 225vw;
+  min-height: 750px;
+}
 </style>

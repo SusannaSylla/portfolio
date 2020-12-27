@@ -1,10 +1,10 @@
 <template>
   <router-link to="/">
 
-    <div class="topName">
-      <p>Susanna Saadi</p>
-      <div class="roseLine first"></div>
-      <div class="roseLine second"></div>
+    <div class="top-name">
+      <p class="full-name">Susanna Saadi</p>
+      <div class="rose-line1"></div>
+      <div class="rose-line2"></div>
     </div>
 
   </router-link>
@@ -17,5 +17,8 @@ export default {
 </script>
 
 <style scoped>
-
+.full-name {
+  padding: 0;
+  margin: 0;
+}
 </style>
