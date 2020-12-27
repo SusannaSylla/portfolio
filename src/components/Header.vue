@@ -40,4 +40,11 @@ export default {
   height: 100vh;
 }
 
+.nav {
+  position: absolute;
+  right: 0;
+  margin: 1em;
+  top: 0;
+  width: 3em;
+}
 </style>
