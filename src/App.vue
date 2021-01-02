@@ -19,6 +19,8 @@ body {
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
+  overflow-y: scroll;
+  background-color: #495562;
 }
 
 </style>
