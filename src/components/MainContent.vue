@@ -15,7 +15,7 @@
 import ContentBlock from '@/components/contentblocks/ContentBlock.vue'
 
 export default {
-  name: 'Content',
+  name: 'MainContent',
   components: {
     ContentBlock,
   },
