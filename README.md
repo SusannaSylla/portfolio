@@ -1,4 +1,6 @@
-# hello-world
+# Portfolio
+
+Hello, this is my portfolio, feel free to explore this code. 
 
 ## Project setup
 ```
