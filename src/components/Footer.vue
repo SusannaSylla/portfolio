@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="separation-line"></div>
-    <p>Made with vue.js by Susanna Saadi</p>
+    <div class="loveLogo"><p>Made with <span><img src="../assets/loveLogo.svg" alt="love"></span> by Susanna Saadi</p></div>
   </div>
 </template>
 
@@ -20,6 +20,10 @@ export default {
   justify-content: center;
   position: relative;
 }
+img {
+  width: 6%;
+  height: 6%;
+}
 
 .separation-line {
   background-color: #FFF;
@@ -27,12 +31,13 @@ export default {
   width: 100vw;
 }
 
-p {
+.loveLogo {
   color: #FFFFFF;
   font-weight: 500;
   font-family: Montserrat, sans-serif;
   margin: 0 auto;
   position: absolute;
-  top: 50%;
+  top: 40%;
+  left: 19%;
 }
 </style>

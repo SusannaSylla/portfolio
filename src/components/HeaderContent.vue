@@ -3,7 +3,7 @@
     <p class="title"><span class="nb">Software developer</span><span class="tint-red"> /</span><br><span class="tab">Student</span>
     </p>
     <p class="portfolio-title">PORTFOLIO</p>
-    <img class="down-arrow" alt="scroll down image" src="../assets/down.svg">
+    <img class="down-arrow bounce" alt="scroll down image" src="../assets/down.svg">
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 .header-content {
   position: absolute;
@@ -64,5 +64,21 @@ export default {
 .tab {
   display: inline-block;
   margin-left: 6.7em;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.down-arrow.bounce {
+  animation: bounce 2s infinite;
 }
 </style>
