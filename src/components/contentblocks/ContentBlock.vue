@@ -1,9 +1,14 @@
 <template>
   <div class="contentBlock">
-    <div class="picture" :style="{ 'backgroundImage': 'url(' + require('@/assets/' + picUrl) + ')'}">
-      <button v-on:click="btnClick">Click me!</button>
+
+    <div class="picture" :style="{ 'backgroundImage': 'url(' + require('@/assets/' + data.picUrl) + ')'}">
+      <button v-on:click="btnClick">Click here!</button>
     </div>
-    <div class="description"><p><span>{{ title }}</span>{{ msg }}</p></div>
+
+    <div class="description">
+      <p v-html="data.title + data.msg"></p>
+    </div>
+
   </div>
 </template>
 
@@ -12,9 +17,7 @@
 export default {
   name: 'ContentBlock',
   props: {
-    msg: String,
-    title: String,
-    picUrl: String,
+    data: Object,
   },
   methods: {
     btnClick: function () {
@@ -38,9 +41,10 @@ export default {
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
+  padding: .5em 0 1em 0;
 }
 
-span {
+data.title {
   font-weight: 600;
 }
 
@@ -52,6 +56,8 @@ span {
   justify-content: center;
   align-items: center;
   margin: 3vh auto 1vh auto;
+  background-repeat: no-repeat;
+  background-size: 80vw 36vh;
 }
 
 button {
@@ -65,7 +71,11 @@ button {
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   color: #FFF;
+  outline: none;
+}
 
+button:active {
+  background: #91313c;
 }
 
 </style>
