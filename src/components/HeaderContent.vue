@@ -4,12 +4,14 @@
     </p>
     <p class="portfolio-title">PORTFOLIO</p>
     <img class="down-arrow bounce" alt="scroll down image" src="../assets/down.svg">
+
   </div>
 </template>
 
 <script>
+
 export default {
-  name: "HeaderContent"
+  name: "HeaderContent",
 }
 </script>
 
@@ -65,7 +67,6 @@ export default {
   display: inline-block;
   margin-left: 6.7em;
 }
-
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
@@ -81,4 +82,5 @@ export default {
 .down-arrow.bounce {
   animation: bounce 2s infinite;
 }
+
 </style>
