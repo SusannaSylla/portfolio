@@ -8,7 +8,7 @@
     </div>
 
     <TopName></TopName>
-    <HeaderContent></HeaderContent>
+    <HeaderContent ></HeaderContent>
 
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
     HeaderContent,
   },
   props: {
-    msg: String
+    msg: String,
   },
 }
 </script>

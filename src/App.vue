@@ -21,7 +21,6 @@ body {
   overflow-y: scroll;
   background-color: #495562;
   overflow-x: hidden;
-
 }
 
 </style>
