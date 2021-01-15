@@ -21,3 +21,8 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+/deep/ .introduction {
+  visibility: hidden;
+}
+</style>
