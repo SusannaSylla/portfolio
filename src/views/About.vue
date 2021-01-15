@@ -24,4 +24,17 @@ export default {
   visibility: hidden;
 }
 
+/deep/ .portfolio-title {
+  visibility: hidden;
+}
+
+/deep/ .face {
+  left: 50%;
+}
+
+/deep/ .circles {
+  left: 51%;
+}
+
+
 </style>

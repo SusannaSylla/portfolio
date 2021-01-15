@@ -2,7 +2,7 @@
   <div class="header">
 
     <HeaderImage></HeaderImage>
-
+    <Introduction></Introduction>
     <div class="nav">
       <img alt="navigation menu button" src="../assets/burger.svg">
     </div>
@@ -17,6 +17,7 @@
 import TopName from '@/components/TopName.vue'
 import HeaderImage from '@/components/HeaderImage.vue'
 import HeaderContent from '@/components/HeaderContent.vue'
+import Introduction from "@/components/Introduction"
 
 export default {
   name: 'Header',
@@ -24,6 +25,7 @@ export default {
     TopName,
     HeaderImage,
     HeaderContent,
+    Introduction,
   },
   props: {
     msg: String,
