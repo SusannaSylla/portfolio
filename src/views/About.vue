@@ -1,6 +1,9 @@
 <template>
-  <div class="home">
-    <Header hideContent/>
+  <div class="about">
+    <Header/>
+
+    <AboutMainContent/>
+
     <Footer/>
   </div>
 </template>
@@ -8,12 +11,14 @@
 <script>
 // @ is an alias to /src
 import Header from '@/components/Header.vue'
+import AboutMainContent from '@/components/AboutMainContent'
 import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'About',
   components: {
     Header,
+    AboutMainContent,
     Footer
   }
 }
@@ -35,6 +40,13 @@ export default {
 /deep/ .circles {
   left: 51%;
 }
+
+/deep/ .footer {
+  top: 230vh;
+  position: absolute;
+}
+
+
 
 
 </style>
