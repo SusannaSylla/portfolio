@@ -42,11 +42,7 @@ export default {
 }
 
 /deep/ .footer {
-  top: 230vh;
+  top: 310vh;
   position: absolute;
 }
-
-
-
-
 </style>

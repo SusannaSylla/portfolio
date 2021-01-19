@@ -7,7 +7,6 @@
     <div class="lightbox-target" id="certificate">
       <img src="../assets/certificate.png" alt="certificate">
       <a class="lightbox-close" href="#certificateH1"></a>
-
     </div>
     <p class="info">(Zoom in by clicking on the picture)</p>
   </div>
@@ -46,6 +45,7 @@ a.lightbox img {
   opacity: 0;
   transition: opacity .5s ease-in-out;
   overflow: hidden;
+  z-index: 90;
 }
 
 /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
@@ -125,7 +125,8 @@ a.lightbox-close:after {
 .lightbox-target:target a.lightbox-close {
   top: 0;
 }
-.info{
+
+.info {
   color: #FFFFFF;
   position: absolute;
   font-weight: 200;
