@@ -1,6 +1,6 @@
 <template>
   <div class="aboutSkills">
-    <p class="mySkills">My skills:</p>
+    <p class="my-skills">My skills:</p>
     <div class="imageBackground"><img src="../assets/skillsChart.svg" alt="my skills chart" class="skillsImage"></div>
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style scoped>
-.mySkills {
+.my-skills {
   padding: 3vh 0 0 5vw;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;

@@ -1,7 +1,8 @@
 <template>
   <div class="footer">
     <div class="separation-line"></div>
-    <div class="love-logo"><p>Made with <span><img src="../assets/loveLogo.svg" alt="love"></span> by Susanna Saadi</p></div>
+    <div class="love-logo"><p>Made with <span><img src="../assets/loveLogo.svg" alt="love"></span> by Susanna Saadi</p>
+    </div>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ export default {
   justify-content: center;
   position: relative;
 }
+
 img {
   width: 6%;
   height: 6%;
