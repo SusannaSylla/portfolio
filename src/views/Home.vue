@@ -71,7 +71,7 @@ export default {
         height: 30em;
         width: 46em;
         margin: 6em;
-        background-size: 100%;
+        background-size: 100% 100%;
       }
 
       .description {
