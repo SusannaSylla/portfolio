@@ -22,7 +22,13 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+
 /deep/ .introduction {
   visibility: hidden;
 }
+
+/deep/ #home-link {
+  display: none;
+}
+
 </style>

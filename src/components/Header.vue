@@ -3,12 +3,10 @@
 
     <HeaderImage></HeaderImage>
     <Introduction></Introduction>
-    <div class="nav">
-      <img alt="navigation menu button" src="../assets/burger.svg">
-    </div>
+    <Nav></Nav>
 
     <TopName></TopName>
-    <HeaderContent ></HeaderContent>
+    <HeaderContent></HeaderContent>
 
   </div>
 </template>
@@ -18,10 +16,12 @@ import TopName from '@/components/TopName.vue'
 import HeaderImage from '@/components/HeaderImage.vue'
 import HeaderContent from '@/components/HeaderContent.vue'
 import Introduction from "@/components/Introduction"
+import Nav from "@/components/Nav";
 
 export default {
   name: 'Header',
   components: {
+    Nav,
     TopName,
     HeaderImage,
     HeaderContent,
@@ -42,11 +42,4 @@ export default {
   height: 100vh;
 }
 
-.nav {
-  position: absolute;
-  right: 0;
-  margin: 1em;
-  top: 0;
-  width: 3em;
-}
 </style>

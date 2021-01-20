@@ -45,4 +45,12 @@ export default {
   top: 310vh;
   position: absolute;
 }
+
+/deep/ #about-link {
+  display: none;
+}
+
+/deep/ .circles {
+  filter: hue-rotate(36deg);
+}
 </style>

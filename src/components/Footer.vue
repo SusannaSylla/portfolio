@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="separation-line"></div>
-    <div class="loveLogo"><p>Made with <span><img src="../assets/loveLogo.svg" alt="love"></span> by Susanna Saadi</p></div>
+    <div class="love-logo"><p>Made with <span><img src="../assets/loveLogo.svg" alt="love"></span> by Susanna Saadi</p></div>
   </div>
 </template>
 
@@ -31,7 +31,7 @@ img {
   width: 100vw;
 }
 
-.loveLogo {
+.love-logo {
   color: #FFFFFF;
   font-weight: 500;
   font-family: Montserrat, sans-serif;
