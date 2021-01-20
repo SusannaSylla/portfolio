@@ -24,6 +24,8 @@ export default {
   left: 64%;
   transform: translate(-50%, -50%);
   z-index: 10;
+  width: 17em;
+  height: 17em;
 }
 
 .circles {
