@@ -1,7 +1,8 @@
 <template>
   <div class="footer">
     <div class="separation-line"></div>
-    <div class="loveLogo"><p>Made with <span><img src="../assets/loveLogo.svg" alt="love"></span> by Susanna Saadi</p></div>
+    <div class="love-logo"><p>Made with <span><img src="../assets/loveLogo.svg" alt="love"></span> by Susanna Saadi</p>
+    </div>
   </div>
 </template>
 
@@ -25,13 +26,18 @@ img {
   height: 6%;
 }
 
+img {
+  width: 6%;
+  height: 6%;
+}
+
 .separation-line {
   background-color: #FFF;
   height: 0.4vh;
   width: 100vw;
 }
 
-.loveLogo {
+.love-logo {
   color: #FFFFFF;
   font-weight: 500;
   font-family: Montserrat, sans-serif;

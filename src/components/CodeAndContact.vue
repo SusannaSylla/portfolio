@@ -7,13 +7,13 @@
       </a>
     </div>
     <div class="contact">
-      <p id="contactHeader">Contact me!</p>
+      <p id="contact-header">Contact me!</p>
       <a href="mailto:susannasaadi@gmail.com">
-        <img src="../assets/EmailLogo.png" alt="email logo" id="emailLogo">
+        <img src="../assets/EmailLogo.png" alt="email logo" id="email-logo">
       </a>
-      <p id="emailAddress">susannasaadi@gmail.com</p>
+      <p id="email-address">susannasaadi@gmail.com</p>
       <a href="https://www.linkedin.com/in/susanna-s-78b38a1aa/">
-        <img src="../assets/linkedinLogo.png" id="linkedinLogo">
+        <img src="../assets/linkedinLogo.png" id="linkedin-logo">
       </a>
     </div>
   </div>
@@ -65,16 +65,16 @@ export default {
   text-align: center;
 }
 
-#contactHeader {
+#contact-header {
   font-size: 2em;
   font-weight: 500;
 }
 
-/*#emailLogo {
+/*#email-logo {
   padding-top: 20%;
 }*/
 
-#emailAddress {
+#email-address {
   margin-top: -13%;
   font-weight: 300;
   /*font-size: 1.6em;*/
@@ -82,7 +82,7 @@ export default {
 }
 
 /*
-#linkedinLogo {
+#linkedin-logo {
   padding-top: 20%;
 }
 */

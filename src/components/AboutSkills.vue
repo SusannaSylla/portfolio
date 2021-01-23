@@ -1,6 +1,6 @@
 <template>
   <div class="aboutSkills">
-    <p class="mySkills">My skills:</p>
+    <p class="my-skills">My skills:</p>
     <div class="imageBackground"><img src="../assets/skillsChart.svg" alt="my skills chart" class="skillsImage"></div>
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style scoped>
-.mySkills{
+.my-skills {
   padding: 3vh 0 0 5vw;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
@@ -21,13 +21,15 @@ export default {
   font-size: 3em;
 
 }
-.skillsImage{
+
+.skillsImage {
   position: absolute;
   top: 114vh;
-  width: 95vw;
-
+  width: 90%;
+  height: 40%;
 }
-.imageBackground{
+
+.imageBackground {
   background-color: #1E2D3C;
   width: 100vw;
   height: 48vh;
