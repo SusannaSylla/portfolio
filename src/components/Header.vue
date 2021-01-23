@@ -6,7 +6,7 @@
     <Nav></Nav>
 
     <TopName></TopName>
-    <HeaderContent ></HeaderContent>
+    <HeaderContent></HeaderContent>
 
   </div>
 </template>
@@ -42,4 +42,13 @@ export default {
   height: 100vh;
 }
 
+@media only screen and (min-width: 768px) {
+.header {
+    .nav {
+      margin: 3em 5em;
+    }
+
+
+  }
+}
 </style>

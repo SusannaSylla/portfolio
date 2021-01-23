@@ -57,4 +57,37 @@ span {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .top-name {
+    margin: 1em 0 0 2.8em;
+
+    span {
+      font-size: 2.5rem;
+    }
+
+    .tab {
+      margin-left: 110px;
+    }
+
+    .full-name {
+      font-size: 1.8rem;
+    }
+
+    .rose-line {
+      width: 13em;
+      height: 0.40em;
+      margin: 0.3em 0 0.4em 0;
+
+      &.first {
+        margin-left: 4.5em;
+      }
+
+      &.second {
+        margin-top: .2em;
+        margin-left: -.9em;
+
+      }
+    }
+  }
+}
 </style>

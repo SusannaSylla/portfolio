@@ -2,7 +2,7 @@
   <div class="contentBlock">
 
     <div class="picture" :style="{ 'backgroundImage': 'url(' + require('@/assets/' + data.picUrl) + ')'}">
-      <button v-on:click="btnClick">Click here!</button>
+      <button v-on:click="btnClick(data.btnUrl)">Click here!</button>
     </div>
 
     <div class="description">
@@ -20,8 +20,8 @@ export default {
     data: Object,
   },
   methods: {
-    btnClick: function () {
-      alert("suvaline tekst");
+    btnClick: function (btnUrl) {
+      window.location = btnUrl;
     }
   }
 }
@@ -61,10 +61,10 @@ data.title {
 }
 
 button {
-  margin-top: 26vh;
-  margin-left: 42vw;
-  width: 30vw;
-  height: 6vh;
+  margin-top: 15em;
+  margin-left: 12em;
+  width: 10em;
+  height: 3.4em;
   border-radius: 45px;
   border: none;
   background: #B53D4B;
@@ -78,4 +78,11 @@ button:active {
   background: #91313c;
 }
 
+@media only screen and (min-width: 768px) {
+  button {
+    margin-left: 20em;
+    font-size: 1.5rem;
+    margin-right: 2em;
+  }
+}
 </style>

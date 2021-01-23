@@ -2,18 +2,18 @@
   <div class="codeNContact">
     <div class="code">
       <p>Check out this portfolio's code:</p>
-      <a href="www.https://github.com/susannasaadi/portfolio">
-        <img src="../assets/githubLogo.png" alt="github logo">
+      <a href="https://github.com/susannasaadi/portfolio" target="_blank">
+        <img src="../assets/githubLogo.svg" alt="github logo" class="github-logo">
       </a>
     </div>
     <div class="contact">
-      <p id="contact-header">Contact me!</p>
-      <a href="mailto:susannasaadi@gmail.com">
-        <img src="../assets/EmailLogo.png" alt="email logo" id="email-logo">
+      <p class="contact-header">Contact me!</p>
+      <a href="mailto:susannasaadi@gmail.com" target="_blank">
+        <img src="../assets/EmailLogo.svg" alt="email logo" class="email-logo">
       </a>
-      <p id="email-address">susannasaadi@gmail.com</p>
-      <a href="https://www.linkedin.com/in/susanna-s-78b38a1aa/">
-        <img src="../assets/linkedinLogo.png" id="linkedin-logo">
+      <p class="email-address">susannasaadi@gmail.com</p>
+      <a href="https://www.linkedin.com/in/susanna-s-78b38a1aa/" target="_blank">
+        <img src="../assets/linkedinLogo.svg" class="linkedin-logo">
       </a>
     </div>
   </div>
@@ -51,7 +51,8 @@ export default {
   /*padding: 37% 0 0 100%;*/
   position: absolute;
   left: 50%;
-  top: 70%;
+  top: 9em;
+  width: 120px;
   transform: translate(-50%, -50%);
 }
 
@@ -65,32 +66,29 @@ export default {
   text-align: center;
 }
 
-#contact-header {
+.contact-header {
   font-size: 2em;
   font-weight: 500;
 }
 
-/*#email-logo {
-  padding-top: 20%;
-}*/
-
-#email-address {
-  margin-top: -13%;
+.email-address {
+  margin-top: -70px;
   font-weight: 300;
   /*font-size: 1.6em;*/
   font-size: calc(.5em + 4vw);
 }
 
-/*
-#linkedin-logo {
-  padding-top: 20%;
-}
-*/
-
 .contact img {
   position: relative;
-  padding-top: 20%;
   transform: translate(-50%, -50%);
   left: 50%;
+}
+.email-logo{
+  width: 100px;
+  padding-top: 100px;
+}
+.linkedin-logo {
+  width: 200px;
+  padding-top: 80px;
 }
 </style>

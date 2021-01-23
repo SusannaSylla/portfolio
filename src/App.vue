@@ -24,4 +24,37 @@ body {
   overflow-x: hidden;
 }
 
+/deep/ .header {
+  .nav{
+    margin: 3em 5em;
+  }
+  .top-name{
+    margin: 2em 0 0 3em;
+
+    span{
+      font-size: 2.8rem;
+    }
+    .tab{
+      margin-left: 110px;
+    }
+    .full-name{
+      font-size: 1.8rem;
+    }
+    .rose-line{
+      width:  13em;
+      height: 0.40em;
+      margin: 0.3em 0 0.4em 0;
+
+      &.first {
+        margin-left: 4.5em;
+      }
+
+      &.second {
+        margin-top: .2em;
+        margin-left: -.9em;
+
+      }
+    }
+  }
+}
 </style>

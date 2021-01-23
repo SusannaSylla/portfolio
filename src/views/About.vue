@@ -105,7 +105,7 @@ export default {
 
       .certificateHeader {
         font-size: 3em;
-        padding: 3% 2% 5% 2%;
+        padding: 3% 2% 4% 4%;
       }
 
       .info {
@@ -124,7 +124,7 @@ export default {
       transform: translate(-50%, 0);
       width: 90%;
       height: 7em;
-      margin: 5em 0 10em;
+      margin:-1em 0 6em;
 
       a {
         font-size: 3em;
@@ -137,18 +137,18 @@ export default {
       .code {
         top: unset;
         width: 100vw;
-        height: 33em;
+        height: 28em;
         position: unset;
 
-        p {
-          padding-top: 2em;
+        p { //check out code
+          padding-top: 1em;
           font-size: 3em;
         }
 
-        a img { // github logo
+        .github-logo {
           position: absolute;
           left: 50%;
-          top: 20em;
+          top: 17em;
           width: 12em;
         }
       }
@@ -156,29 +156,28 @@ export default {
       .contact {
         top: unset;
         position: relative;
-        height: 50em;
+        height: 37em;
 
-        #contact-header {
+        .contact-header {
           font-size: 3em;
-          margin: 2em;
+          margin: 1em 0 2.5em 0;
         }
 
-        #email-logo {
+        .email-logo {
           position: relative;
-          padding-top: 2em;
           transform: translate(-50%, -50%);
           left: 50%;
           width: 9em;
         }
 
-        #email-address {
+        .email-address {
           font-size: 3em;
           margin-top: 0.5em;
         }
 
-        #linkedin-logo {
+        .linkedin-logo {
           width: 23em;
-          top: 13em;
+          top: 7em;
         }
 
         img {
